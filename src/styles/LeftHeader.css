@@ -1,0 +1,28 @@
+#left-header {
+	display: flex;
+	flex-direction: row;
+	height: 7%;
+	background-color: pink;
+}
+
+#left-header .child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100%;
+}
+
+#dp-container {
+	width: 30%;
+	justify-content: start;
+	padding-left: 0.8vw;
+}
+#dp {
+	height: 75%;
+	border-radius: 50%;
+}
+
+#right-container {
+	flex-grow: 1;
+	justify-content: end;
+}

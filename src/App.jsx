@@ -33,8 +33,28 @@ function LeftContent(props) {
 }
 
 import "./styles/RightHeader.css";
+import {MdMoreVert as MoreIcon} from "react-icons/md";
+
 function RightHeader(props) {
-	return <div id="right-header"></div>;
+	const iconSize = 20;
+	return (
+	<div id="right-header">
+		<div class="child" id="rdp-container">
+			<img id="rdp" src="/src/assets/profile_photo.jpeg" alt="Profile Photo" />
+		</div>
+
+		<div id="right-name">
+		<p id="rname-style">Person 2</p>
+		</div>
+
+		<div class="child" id="r-container">
+		<SearchIcon style={{ marginRight: 10, marginLeft: 10, fontSize: iconSize }}></SearchIcon>
+
+		<MoreIcon style ={{marginLeft:10, marginRight:7, fontSize:iconSize}} ></MoreIcon>
+		</div>
+		
+	</div>
+	);
 }
 
 import "./styles/RightContent.css";

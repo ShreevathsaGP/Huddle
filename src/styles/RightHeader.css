@@ -1,4 +1,47 @@
 #right-header {
+	display:flex;
+	flex-direction:row;
 	height: 7%;
 	background-color: yellow;
+}
+
+#right-name{
+	padding:0.8vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100%;
+	
+}
+
+#rname-style{
+	display:flex;
+	flex-direction:row;
+	color:black;
+	font-size: 2.5lvh;
+	text-align: center;
+}
+
+
+#right-header .child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100%;
+	width:auto;
+}
+
+#rdp-container {
+	width: 30%;
+	justify-content: start;
+	padding-left: 1vw;
+}
+#rdp {
+	height: 65%;
+	border-radius: 60%;
+}
+
+#r-container{
+	flex-grow: 1;
+	justify-content:end;
 }

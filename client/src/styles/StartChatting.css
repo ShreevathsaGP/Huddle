@@ -1,0 +1,101 @@
+#login-root {
+	background-color: var(--full-black);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.container {
+	border-radius: 10px;
+	background-color: var(--mid-black);
+	width: 30%;
+	min-height: 250px;
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--border-white);
+}
+
+#login-container {
+	height: 35%;
+}
+
+#signup-container {
+	height: 40%;
+}
+
+#heading {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid var(--border-white);
+}
+
+#heading h3 {
+	/* color: var(--button-white); */
+	color: rgb(77, 139, 255);
+}
+
+#form-container {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sub-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#input-container {
+	margin-top: 15px;
+}
+
+.input {
+	margin-bottom: 10px;
+	color: var(--white);
+	border-radius: 2px;
+	background-color: var(--low-black);
+	border: 0px;
+	height: 40px;
+	width: 95%;
+	font-size: 2vh;
+	padding-left: 10px;
+}
+
+.input:focus {
+	outline: none;
+}
+
+#proceed-container {
+}
+
+.action-button {
+	border-radius: 3px;
+	background-color: rgb(89, 140, 235);
+	color: black;
+	border: 0px;
+	font-size: 2vh;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+.question {
+	font-size: 1.8vh;
+	text-decoration: underline;
+	color: rgb(130, 130, 130);
+	margin-bottom: 15px;
+}
+
+.question:hover {
+	color: purple;
+}

@@ -1,0 +1,42 @@
+#right-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--full-black);
+}
+
+#message-area {
+	height: 92%;
+	background-color: var(--full-black);
+}
+
+#minput-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--low-black);
+	width: 100%;
+	flex: 1;
+}
+
+#minput {
+	background-color: rgb(60, 60, 60);
+	color: var(--white);
+	font-size: 2vh;
+	border: 0px;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	height: 70%;
+	flex: 1;
+}
+
+#minput::placeholder {
+	color: rgb(170, 170, 170);
+	padding-left: 2px;
+}
+
+#minput:focus {
+	outline: none;
+}

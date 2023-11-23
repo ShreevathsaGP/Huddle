@@ -1,8 +1,9 @@
 #left-header {
 	display: flex;
 	flex-direction: row;
-	height: 7%;
-	background-color: pink;
+	height: 8%;
+	background-color: var(--low-black);
+	border-bottom: 1px solid var(--border-white);
 }
 
 #left-header .child {

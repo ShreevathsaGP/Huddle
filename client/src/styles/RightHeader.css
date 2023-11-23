@@ -1,34 +1,33 @@
 #right-header {
-	display:flex;
-	flex-direction:row;
-	height: 7%;
-	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+	height: 8%;
+	background-color: var(--low-black);
+	border-bottom: 1px solid var(--border-white);
 }
 
-#right-name{
-	padding:0.8vh;
+#right-name {
+	padding: 0.8vh;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	height: 100%;
-	
 }
 
-#rname-style{
-	display:flex;
-	flex-direction:row;
-	color:black;
-	font-size: 2.5lvh;
+#rname-style {
+	display: flex;
+	flex-direction: row;
+	color: var(--white);
+	font-size: 2.5vh;
 	text-align: center;
 }
-
 
 #right-header .child {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	height: 100%;
-	width:auto;
+	width: auto;
 }
 
 #rdp-container {
@@ -41,7 +40,7 @@
 	border-radius: 60%;
 }
 
-#r-container{
+#r-container {
 	flex-grow: 1;
-	justify-content:end;
+	justify-content: end;
 }
